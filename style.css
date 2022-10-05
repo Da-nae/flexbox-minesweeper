@@ -32,7 +32,7 @@ article {
     background-color: rgb(225, 225, 225);
     width: 250px;
     height: 250px;
-    border: 10px outset rgb(167, 165, 165) ;
+    border: 10px ridge rgb(167, 165, 165) ;
 }
 
 .blank {
