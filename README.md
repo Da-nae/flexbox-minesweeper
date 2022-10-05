@@ -1,6 +1,8 @@
 # flexbox-minesweeper
 ### Becode challenge : creating a minesweeper on flexbox !
 
+[Link to the finished project](https://da-nae.github.io/flexbox-minesweeper/)
+
 ## **Who did this project ?**
 Me, Danaé.
 

@@ -32,8 +32,12 @@ article {
     background-color: rgb(225, 225, 225);
     width: 250px;
     height: 250px;
+<<<<<<< HEAD
     border: 10px ridge rgb(167, 165, 165);
     overflow: hidden;
+=======
+    border: 10px ridge rgb(167, 165, 165) ;
+>>>>>>> ff982b51d7b79c6822c4af773493cc2ea492475f
 }
 
 .blank {
