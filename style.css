@@ -165,10 +165,10 @@ article {
     box-shadow: inset 0px 0px 0px 0px;
 }
 
-#hiddenbomb {
+#hiddenbomb span{
     visibility:hidden;
 }
 
-#hiddenbomb:hover {
+#hiddenbomb:hover span{
     visibility:visible;
 }
