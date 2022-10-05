@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Minesweeper</title>
+</head>
+<body>
+<article>
+    <section id="first-line">
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <p class="blank">0</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted last">
+            <p class="blank">0</p>
+        </div>
+    </section>
+    <section id="second-line">
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <p class="blank">0</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted last">
+            <p class="blank">0</p>
+        </div>
+    </section>
+    <section id="third-line">
+        <div class="dotted">
+            <p class="two">2</p>
+        </div>
+        <div class="dotted">
+            <p class="two">2</p>
+        </div>
+        <div class="dotted">
+            <p class="two">2</p>
+        </div>
+        <div class="dotted">
+            <p class="blank">0</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted last">
+            <p class="blank">0</p>
+        </div>
+    </section>
+    <section id="fourth-line">
+        <div class="dotted">
+            <p class="two">2</p>
+        </div>
+        <div class="dotted">
+            <p class="two">2</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <p class="blank">0</p>
+        </div>
+        <div class="dotted">
+            <p class="blank">0</p>
+        </div>
+        <div class="dotted">
+            <p class="blank">0</p>
+        </div>
+        <div class="dotted">
+            <p class="blank">0</p>
+        </div>
+        <div class="dotted last">
+            <p class="blank">0</p>
+        </div>
+    </section>
+    <section id="fifth-line">
+        <div class="dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <p class="blank">0</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted">
+            <p class="two">2</p>
+        </div>
+        <div class="dotted">
+            <p class="one">1</p>
+        </div>
+        <div class="dotted last">
+            <p class="one">1</p>
+        </div>
+    </section>
+    <section id="sixth-line">
+        <div class="dotted">
+            <p class="two">2</p>
+        </div>
+        <div class="dotted">
+            <p class="three">3</p>
+        </div>
+        <div class="dotted">
+            <p class="three">3</p>
+        </div>
+        <div class="dotted">
+            <p class="three">3</p>
+        </div>
+        <div class="dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="dotted">
+            <p class="two">2</p>
+        </div>
+        <div class="dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="hidden hoverone">
+            <p>1</p>
+        </div>
+    </section>
+    <section id="seventh-line">
+        <div class="hidden hoverone dotted">
+            <p>1</p>
+        </div>
+        <div class="dotted left dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="dotted dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="hidden hoverthree dotted">
+            <p>3</p>
+        </div>
+        <div class="dotted left dotted">
+        <p class="three">3</p>
+        </div>
+        <div class="hidden hover dotted">
+            <img id="hiddenbomb" src="Bomb.png">
+        </div>
+        <div class="hidden hoverone dotted">
+            <p>1</p>
+        </div>
+    </section>
+    <section id="eighth-line">
+        <div class="hidden hoverone dotted">
+            <p>1</p>
+        </div>
+        <div class="hidden hovertwo dotted">
+            <p>2</p>
+        </div>
+        <div class="hidden hoverthree dotted">
+            <p>3</p>
+        </div>
+        <div class="hidden hovertwo dotted">
+            <p>2</p>
+        </div>
+        <div class="hidden hovertwo dotted">
+            <p>2</p>
+        </div>
+        <div class="down dotted">
+            <img src="Bomb.png">
+        </div>
+        <div class="hidden hovertwo dotted">
+            <p>2</p>
+        </div>
+        <div class="hidden hover dotted">
+            <p> </p>
+        </div>
+    </section>
+</article>
+</body>
+</html>

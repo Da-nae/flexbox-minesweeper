@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+Body {
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+}
+
+div {
+    width: 29px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: rgb(225, 225, 225);
+    width: 250px;
+    height: 250px;
+    border: 5px outset rgb(167, 165, 165) ;
+}
+
+.blank {
+    color: rgb(225, 225, 225);
+}
+
+.one {
+    color:blue;
+}
+
+.two  {
+    color:green;
+}
+
+.three {
+    color: red;
+}
+
+.hidden {
+    color: rgba(225, 225, 225, 0.467);
+    box-shadow: inset 4px 4px 0px 0px rgba(251, 251, 251, 0.75), inset 4px 4px 0px 0px rgba(251, 251, 251, 0.75), inset -4px -4px 0px 0px rgba(184,184,184,0.75), inset -4px -4px 0px 0px rgba(184,184,184,0.75);
+}
+
+
+
+#first-line,#second-line, #third-line, #fourth-line, #fifth-line, #sixth-line, #seventh-line, #eighth-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dotted {
+    outline: 3px dotted black;
+}
+
+/*
+#first-corner {
+    border-bottom: 3px dotted black;
+}
+
+.down {
+    border-top:  3px dotted black;
+    border-left: 3px dotted black;
+    border-right: 3px dotted black;
+}
+
+#first-line .dotted {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted black;
+}
+
+#first-line .last {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted rgba(225, 225, 225, 0.467);
+}
+
+#second-line .dotted {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted black; 
+}
+
+#second-line .last {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted rgba(225, 225, 225, 0.467);
+}
+
+#third-line .dotted {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted black; 
+}
+
+#third-line .last {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted rgba(225, 225, 225, 0.467);
+}
+
+#fourth-line .dotted {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted black; 
+}
+
+#fourth-line .last {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted rgba(225, 225, 225, 0.467);
+}
+
+#fifth-line .dotted {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted black; 
+}
+
+#fifth-line .last {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted rgba(225, 225, 225, 0.467);
+}
+
+#sixth-line .dotted {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted black; 
+}
+
+#seventh-line .dotted {
+    border-bottom:  3px dotted black;
+    border-right: 3px dotted black; 
+}
+
+#seventh-line .left {
+    border-left: 3px dotted black; 
+}
+
+*/
+
+.hover:hover {
+    color:black;
+    box-shadow: inset 0px 0px 0px 0px;
+}
+
+.hovertwo:hover {
+    color:green;
+    box-shadow: inset 0px 0px 0px 0px;
+}
+
+.hoverthree:hover {
+    color:red;
+    box-shadow: inset 0px 0px 0px 0px;
+}
+
+.hoverone:hover {
+    color: blue;
+    box-shadow: inset 0px 0px 0px 0px;
+}
+
+#hiddenbomb {
+    visibility:hidden;
+}
+
+#hiddenbomb:hover {
+    visibility:visible;
+}
